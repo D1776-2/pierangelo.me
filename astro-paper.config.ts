@@ -29,10 +29,10 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://github.com/D1776-2/" },
+    { name: "instagram",        url: "https://www.instagram.com/pierangelosabatino/" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/pierangelosabatino/" },
+    { name: "youtube",     url: "https://www.youtube.com/@PierangeloSabatino/videos" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
