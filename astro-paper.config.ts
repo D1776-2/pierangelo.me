@@ -3,13 +3,13 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://pierangelo-me.pages.dev/",
-    title: "Pierangelo Sabatino | Photography, Design & Games",
+    title: "Pierangelo",
     description: "Visual designer with a background in communication, editorial design and interactive systems.",
     author: "Pierangelo Sabatino",
     profile: "https://pierangelo.me",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Europe/Italy",
+    timezone: "Europe/rome",
     dir: "ltr",
   },
   posts: {
