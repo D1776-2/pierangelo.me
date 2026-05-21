@@ -10,25 +10,25 @@
   --font-app: var(--font-google-sans-code);
 }
 
-/* Light theme values */
+/* Light theme values - Pyit Tine Htaung*/
 :root,
 [data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
+--background: #fffaf6;
+  --foreground: #060503;
+  --accent: #aa0215;
+  --accent-foreground: #ffcf75;
+  --muted: #ffdc98;
+  --muted-foreground: #54515b;
+  --border: #ffdc98;
 }
 
-/* Dark theme values */
+/* Dark theme values - Espresso */
 [data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
+  --background: #2f2f2f;
+  --foreground: #ebe5e1;
+  --accent: #ee781e;
+  --accent-foreground: #1a1a1a;
+  --muted: #4f4b44;
+  --muted-foreground: #ddbfa7;
+  --border: #6f5648;
 }
