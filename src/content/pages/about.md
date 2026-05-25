@@ -2,6 +2,7 @@
 title: "About"
 description: "Photography, video, board games, and digital things I enjoy building over time."
 ---
+![Pierangelo - Digital Marketing, Photo & Video, Boardgames](/default-og.png)
 
 I’m Pierangelo, a digital marketing specialist based in Italy with a background that moves between communication, photography, video production, and creative projects.
 

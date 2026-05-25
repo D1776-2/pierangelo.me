@@ -43,9 +43,7 @@
       @apply border-border;
     }
 
-    img {
-      @apply border-border mx-auto border;
-    }
+
 
     figcaption {
       @apply opacity-75;

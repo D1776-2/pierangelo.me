@@ -29,7 +29,7 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/D1776-2/" },
+    //{ name: "github",   url: "https://github.com/D1776-2/" },
     { name: "instagram",        url: "https://www.instagram.com/pierangelosabatino/" },
     { name: "linkedin", url: "https://www.linkedin.com/in/pierangelosabatino/" },
     { name: "youtube",     url: "https://www.youtube.com/@PierangeloSabatino/videos" },

@@ -35,3 +35,7 @@
 :target {
   scroll-margin-block: 1rem;
 }
+
+.prose img {
+  border: none;
+}
