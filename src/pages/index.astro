@@ -37,7 +37,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         Works, Images & Games
       </h1>
-      <a
+      <!-- <a
         target="_blank"
         href={getRelativeLocaleUrl(locale, "rss.xml")}
         class="inline-block"
@@ -50,16 +50,45 @@ const homePath = getRelativeLocaleUrl(locale, "");
           class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
         />
         <span class="sr-only">RSS Feed</span>
-      </a>
+      </a> -->
 
       <p>
         I'm a visual designer with a background in communication, editorial design and interactive systems.
       </p> <br/>
-      <img 
+      <!-- <img 
   src="/homepage-cover.png" 
   alt="Pierangelo - Digital Marketing, Photo & Video, Boardgames" 
   class="w-full rounded-lg my-4"
-/>
+/> -->
+<!-- Trittico sezioni -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 my-6">
+  <a href="/tags/digital-marketing" class="group relative overflow-hidden rounded-lg aspect-video sm:aspect-square">
+    <img 
+      src="/covers/marketing.jpg" 
+      alt="Digital Marketing" 
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+    
+  </a>
+
+  <a href="/tags/photography" class="group relative overflow-hidden rounded-lg aspect-video sm:aspect-square">
+    <img 
+      src="/covers/photo-video.jpg" 
+      alt="Photo & Video" 
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+    
+  </a>
+
+  <a href="/tags/boardgames" class="group relative overflow-hidden rounded-lg aspect-video sm:aspect-square">
+    <img 
+      src="/covers/boardgames.jpg" 
+      alt="Boardgames" 
+      class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+    />
+   
+  </a>
+</div>
       {
         socials.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
